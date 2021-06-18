@@ -133,7 +133,7 @@ public class JSONObject implements Map<String, Object>, Iterable<JSONEntry> {
 
             @Override
             public boolean hasNext() {
-                return i+1 < size();
+                return i < size();
             }
 
             @Override
